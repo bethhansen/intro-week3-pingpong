@@ -20,22 +20,48 @@ _If you would like to view the code for this project, you can find it at https:/
 
 ## Specs
 
-* _Open in any browser_
-* _Navigate to https://bethhansen.github.io/intro-week3-pingpong/_
-* _Choose any random number and add to the input field_
-* _Select submit_
-* _View your return_
+* _Application accepts a random number_
+  input - 3
+  output - 3
+* _Application displays the the number_
+  input - 5
+  output - 5
+* _Application will display numbers in list form_
+  input - 3, 5
+  output - 3, 5
+* _Input numbers can be divided_
+  input - 3/3
+  output - true
+* _If number can be divided by 3, 5 or 15 receive a true_
+  input - 3, 5, 15
+  output - true, true, true
+* _If number can not be divided by 3, 5 or 15 receive a false_
+  input - 4, 8, 11
+  output - false, false, false
+* _If number is divided by 15 return Ping Pong_
+  input - 15
+  output - Ping Pong
+* _If number is divided by 3 return Ping_
+  input - 3
+  output - Ping
+* _If number is divided by 5 return Pong_
+  input - 5
+  output - Pong
+* _Add style_
+  input - CSS
+  output - Styled application
+
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Any questions or suggestions please contact Beth Hansen at beth97209@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Atom code editor, Github, Chrome browser (others will work also)_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*MIT*
 
-Copyright (c) 2016 **_Beth Hansen_**
+Copyright (c) 2017 **_Beth Hansen_**
