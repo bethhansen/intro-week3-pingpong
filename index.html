@@ -13,14 +13,18 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-      <p>Let's Play Ping Pong</p>
+      <h1>Let's Play Ping Pong</h1>
       </div><!--jumbotron-->
-      <div class="userInput">
-        <form class="number" action="index.html" method="post">
+      <div class="form-group">
+        <form id="ping-pong" action="index.html" method="post">
           <label for="">Enter a number:</label>
-          <input type="text" name="name" value="">
-          <button type="submit" name="button">Submit</button>
+          <input id="number" type="text" name="name" value="">
+          <button type="submit" class="button"name="btn">Submit</button>
         </form>
+
+        <div class="userReturn">
+          <p><span class="result"></span></p>
+        </div><!--userReturn-->
       </div><!--userInput-->
     </div><!--container-->
   </body>
