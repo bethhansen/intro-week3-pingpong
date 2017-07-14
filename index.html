@@ -8,26 +8,43 @@
     crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <title>Ping Pong</title>
+    <link
   </head>
+  <title>Ping Pong</title>
   <body>
+    <div class="jumbotron">
+      <h1>Ping-Pong</h1>
+    </div><!--header-->
     <div class="container">
-      <div class="jumbotron">
-      <h1>Let's Play Ping Pong</h1>
-      </div><!--jumbotron-->
       <div class="form-group">
-        <form id="pingPong" action="index.html" method="post">
-          <label for="">Enter a number:</label>
-          <input id="number" type="text" name="name" value="">
-          <button type="submit" class="button"name="btn">Submit</button>
-        </form>
-        <ul id="display">
-
-        </ul>
-        <!-- <div class="userReturn">
-          <p><span class="result" class="not"></span></p>
-        </div><!-userReturn-->
-      </div><!--userInput-->
+        <div class="sidebar">
+          <h4><strong>About Ping Pong</strong></h4>
+          <h5>Created by:</h5>
+          <p>Kit Fisto</p>
+          <h5>GitHub Username/URL</h5>
+          <p>greensaber</p>
+          <h5>Level 2 Test for:</h5>
+          <p>Java</p>
+        </div>
+        <div class="enterNumber">
+          <h3>Let's play!</h3>
+          <h5>Rules:</h5>
+          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+          <ol>
+            <li>Numbers divisible by 3 become "pingPong"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+          </ol>
+          <form id="pingPong" action="index.html" method="post">
+            <label for=""><strong>Enter a number here:</strong></label>
+            <input id="number" type="text" name="name" value="">
+            <button type="submit" class="button"name="btn">Submit</button>
+          </form><!--pingPong-->
+        </div><!--enterNumber-->
+        <div class="returnNumber">
+          <ul id="display"></ul>
+        </div><!--display-->
+      </div><!--form-group-->
     </div><!--container-->
   </body>
 </html>
