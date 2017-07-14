@@ -21,35 +21,35 @@ _If you would like to view the code for this project, you can find it at https:/
 ## Specs
 
 * _Application accepts a random number_
-  input - 3
-  output - 3
+  _input - 3_
+  _output - 3_
 * _Application displays the the number_
-  input - 5
-  output - 5
+  _input - 5_
+  _output - 5_
 * _Application will display numbers in list form_
-  input - 3, 5
-  output - 3, 5
+  _input - 3, 5_
+  _output - 3, 5_
 * _Input numbers can be divided_
-  input - 3/3
-  output - true
+  _input - 3/3_
+  _output - true_
 * _If number can be divided by 3, 5 or 15 receive a true_
-  input - 3, 5, 15
-  output - true, true, true
+  _input - 3, 5, 15_
+  _output - true, true, true_
 * _If number can not be divided by 3, 5 or 15 receive a false_
-  input - 4, 8, 11
-  output - false, false, false
+  _input - 4, 8, 11_
+  _output - false, false, false_
 * _If number is divided by 15 return Ping Pong_
-  input - 15
-  output - Ping Pong
+  _input - 15_
+  _output - Ping Pong_
 * _If number is divided by 3 return Ping_
-  input - 3
-  output - Ping
+  _input - 3_
+  _output - Ping_
 * _If number is divided by 5 return Pong_
-  input - 5
-  output - Pong
+  _input - 5_
+  _output - Pong_
 * _Add style_
-  input - CSS
-  output - Styled application
+  _input - CSS_
+  _output - Styled application_
 
 
 ## Support and contact details
