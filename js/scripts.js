@@ -1,16 +1,16 @@
 //---business logic------------
 $(document).ready(function() {  //  calls the document to be ready to do some jquery functions
-  var pingPong = function(number) {  //make a variable out of the function number
-  var result = [];  //make a variable that will output an array
-  for (var i = 1; i<= number; i ++) {  //for loop of var index that begins at 1
-  if (i % 15 === 0) {  // if index can be divided by 15 it will equal to false (which is less than 1)
-    result.push("Ping-Pong"); // if a number divisable by 15 if false return Ping-Pong
-  } else if (i % 5 === 0) {  // if index can be divided by 5 it will equal to false (which is less than 1)
-    result.push("Pong");  // if a number divisable by 5 if false return Ping-Pong
-  } else if (i % 3 === 0) {  //if index can be divided by 3 it will equal to false (which is less than 1)
-    result.push("Ping");  // if a number divisable by 3 if false return Ping-Pong
-  } else {  // all other numbers that dont match the following criteria
-    result.push(i);  // return the number that was entered
+  var pingPong = function(number) {  //  make a variable out of the function number
+  var result = [];  //  make a variable that will output an array
+  for (var i = 1; i<= number; i ++) {  //  for loop of var index that begins at 1
+  if (i % 15 === 0) {  //  if index can be divided by 15 it will equal to false (which is less than 1)
+    result.push("Ping-Pong"); //  if a number divisable by 15 if false return Ping-Pong
+  } else if (i % 5 === 0) {  //  if index can be divided by 5 it will equal to false (which is less than 1)
+    result.push("Pong");  //  if a number divisable by 5 if false return Ping-Pong
+  } else if (i % 3 === 0) {  //  if index can be divided by 3 it will equal to false (which is less than 1)
+    result.push("Ping");  //  if a number divisable by 3 if false return Ping-Pong
+  } else {  //  all other numbers that dont match the following criteria
+    result.push(i);  //  return the number that was entered
     }
   }
     return result;  //display the result

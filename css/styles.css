@@ -7,12 +7,12 @@ body {
 .sidebar {
   background-color: #98ba92;
   float:left;
+  color: white;
   margin-left: -50px;
   padding-bottom: 100%;
   padding-right: 300px;
   padding-left: 50px;
   padding-top: 40px;
-
 }
 .main {
   float: right;
@@ -24,10 +24,14 @@ h1 {
 h4  {
   font-size: 25px;
   font-weight: bold;
+  color: black;
 }
-h6 {
+h5 {
   color: #f1dfb7;
   font-size: 20px;
+}
+h6 {
+  color: blue;
 }
 .special p{
   color: blue;
