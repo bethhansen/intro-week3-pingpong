@@ -1,26 +1,30 @@
-# _{Application Name}_
+# _Ping Pong_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Application that takes a input number, performs division and returns either original number or a specified output, July 14, 2017_
 
 #### By _**Beth Hansen**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_The user will add a random number to the input. The application will take that number and decide if it can be divided by 3, 5 or 15. If the input can be divided by 3 it will return the word "ping". If the input number can be divided by 5 the return will by "pong". If the input number can by divided by 15 the return will be "ping-pong". If the input can not be divided by 3, 5 or 15 the original number will be returned. The returns will be displayed in a expanding list._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Open in any browser_
+* _Navigate to https://bethhansen.github.io/intro-week3-pingpong/_
+* _Choose any random number and add to the input field_
+* _Select submit_
+* _View your return_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_If you would like to view the code for this project, you can find it at https://github.com/bethhansen/intro-week3-pingpong/tree/master_
 
-## Known Bugs
+## Specs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+* _Open in any browser_
+* _Navigate to https://bethhansen.github.io/intro-week3-pingpong/_
+* _Choose any random number and add to the input field_
+* _Select submit_
+* _View your return_
 
 ## Support and contact details
 
