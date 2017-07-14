@@ -18,32 +18,34 @@
     <div class="container">
       <div class="form-group">
         <div class="sidebar">
-          <h4><strong>About Ping Pong</strong></h4>
-          <h5>Created by:</h5>
+          <h4>About Ping Pong</h4>
+          <h6>Created by:</h6>
           <p>Kit Fisto</p>
-          <h5>GitHub Username/URL</h5>
-          <p>greensaber</p>
-          <h5>Level 2 Test for:</h5>
+          <h6 >GitHub Username/URL</h6>
+          <p class"special">greensaber</p>
+          <h6>Level 2 Test for:</h6>
           <p>Java</p>
-        </div>
-        <div class="enterNumber">
-          <h3>Let's play!</h3>
-          <h5>Rules:</h5>
-          <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-          <ol>
-            <li>Numbers divisible by 3 become "pingPong"</li>
-            <li>Numbers divisible by 5 become "pong"</li>
-            <li>Numbers divisible by 3 and 5 become "pingpong"</li>
-          </ol>
-          <form id="pingPong" action="index.html" method="post">
-            <label for=""><strong>Enter a number here:</strong></label>
-            <input id="number" type="text" name="name" value="">
-            <button type="submit" class="button"name="btn">Submit</button>
-          </form><!--pingPong-->
-        </div><!--enterNumber-->
-        <div class="returnNumber">
-          <ul id="display"></ul>
-        </div><!--display-->
+        </div><!--sidebar-->
+        <div class="main">
+          <div class="enterNumber">
+            <h3>Let's play!</h3>
+            <h5>Rules:</h5>
+            <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+            <ol>
+              <li>Numbers divisible by 3 become "pingPong"</li>
+              <li>Numbers divisible by 5 become "pong"</li>
+              <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+            </ol>
+            <form id="pingPong" action="index.html" method="post">
+              <label for=""><strong>Enter a number here:</strong></label>
+              <input id="number" type="text" name="name" value="">
+              <button type="submit" class="button"name="btn">Submit</button>
+            </form><!--pingPong-->
+          </div><!--enterNumber-->
+          <div class="returnNumber">
+            <ul id="display"></ul>
+          </div><!--display-->
+        </div><!--form-group-->
       </div><!--form-group-->
     </div><!--container-->
   </body>

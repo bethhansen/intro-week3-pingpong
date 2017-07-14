@@ -1,7 +1,7 @@
 body {
   background-color: #e6e6e6;
 }
-.jumbtron {
+.jumbotron {
   background-color: #f1dfb7;
 }
 .sidebar {
@@ -10,13 +10,28 @@ body {
   margin-left: -50px;
   padding-bottom: 100%;
   padding-right: 300px;
+  padding-left: 50px;
+  padding-top: 40px;
 
 }
-.enterNumber {
+.main {
   float: right;
 }
 h1 {
   text-align: center;
   font-size: 75px;
 }
-.
+h4  {
+  font-size: 25px;
+  font-weight: bold;
+}
+h6 {
+  color: #f1dfb7;
+  font-size: 20px;
+}
+.special p{
+  color: blue;
+}
+.button {
+  background-color: lightgray;
+}
