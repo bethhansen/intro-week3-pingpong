@@ -20,34 +20,34 @@ _If you would like to view the code for this project, you can find it at https:/
 
 ## Specs
 
-* _Application accepts a random number_
-  *_input - 3_
-  *_output - 3_
-* _Application displays the the number_
-  *_input - 5_
-  *_output - 5_
-* _Application will display numbers in list form_
+* _1. Application counts to 2_
+  *_input - 1, 2_
+  *_output - 1, 2_
+* _2. Application counts to 3 and replaces with Ping_
+  *_input - 1, 2, 3_
+  *_output - 1, 2, Ping_
+* _3. Application will display numbers in list form_
   *_input - 3, 5_
   *_output - 3, 5_
-* _Input numbers can be divided_
+* _4. Input numbers can be divided_
   *_input - 3/3_
   *_output - true_
-* _If number can be divided by 3, 5 or 15 receive a true_
+* _5. If number can be divided by 3, 5 or 15 receive a true_
   *_input - 3, 5, 15_
   *_output - true, true, true_
-* _If number can not be divided by 3, 5 or 15 receive a false_
+* _6. If number can not be divided by 3, 5 or 15 receive a false_
   *_input - 4, 8, 11_
   *_output - false, false, false_
-* _If number is divided by 15 return Ping Pong_
+* _7. If number is divided by 15 return Ping Pong_
   *_input - 15_
   *_output - Ping Pong_
-* _If number is divided by 3 return Ping_
+* _8. If number is divided by 3 return Ping_
   *_input - 3_
   *_output - Ping_
-* _If number is divided by 5 return Pong_
+* _9. If number is divided by 5 return Pong_
   *_input - 5_
   *_output - Pong_
-* _Add style_
+* _10. Add style_
   *_input - CSS_
   *_output - Styled application_
 
