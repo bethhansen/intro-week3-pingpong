@@ -24,8 +24,8 @@ $(document).ready(function() {  //  calls the document to be ready to do some jq
    var result = pingPong(number);  // a new variable will be created with the variable pingPong
    result.forEach(function(entry){  // the results will be added to the new function entry
      $("#display").append("<li>" + entry + "</li>")  //  dislplay will create a list
-   });
-  }
+    });
+    }
   event.preventDefault();  //  stops the appliction from automatically resubmitting
   });
 });
